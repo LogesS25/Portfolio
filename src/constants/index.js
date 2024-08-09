@@ -28,6 +28,8 @@ import {
   udemy,
   smartinternz,
   aws,
+  entryexit,
+  pizza,
 
 
 
@@ -281,12 +283,56 @@ const projects = [
     hostlink: "https://chat-pdf-mu-eight.vercel.app/",
   },
   {
+    name: "Building Entry Exit System",
+    description:
+      "The Building Entry System is a comprehensive solution for tracking people entering and leaving a building. Developed using Node.js, TypeScript, Express.js, and MongoDB, this application manages entry and exit events, provides historical records, and delivers insightful analytics.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+    ],
+    image: entryexit,
+    source_code_link: "https://github.com/LogesS25/Building-EntrySystem",
+    hostlink: "https://building-entry-system-client.vercel.app/",
+  },
+  {
+    name: "Food Delivery Application",
+    description:
+      "I have developed this react native app using typescript. this app contains a basic home page with details of the resturant and inside each resturant we can add the food items to the cart. The cart will show all the items in the respective resturants. And then we can click order and will be redirected to the home page again.",
+    tags: [
+      {
+        name: "ReactNative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Zustand State Management",
+        color: "green-text-gradient",
+      },
+    ],
+    image: pizza,
+    source_code_link: "https://github.com/LogesS25/Pizza_ReactNative",
+    hostlink: "https://github.com/LogesS25/Pizza_ReactNative",
+  },
+  {
     name: "Medico",
     description:
       "Designed and implemented a comprehensive hospital management website using React.js for frontend and MongoDB for backend data storage.",
     tags: [
       {
-        name: "ReactNative",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {

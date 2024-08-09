@@ -33,6 +33,8 @@ import tripguide from "./tripguide.png";
 
 import chatpdf from "./chatpdf.png";
 import medico from "./medico.png";
+import entryexit from "./entryexit.png";
+import pizza from "./pizza.png";
 
 import externallinkicon from "./externallinkicon.png";
 
@@ -78,5 +80,8 @@ export {
   udemy,
   smartinternz,
   aws,
+  entryexit,
+  pizza,
+  
   
 };
