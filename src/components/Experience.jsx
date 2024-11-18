@@ -10,11 +10,11 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { certificates } from "../constants";
+import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard = ( {experience} ) => {
+const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -72,21 +72,21 @@ const ExperienceCard = ( {experience} ) => {
   );
 };
 
-const Certificate = () => {
+const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          My Certifications
+          My Work Experience
         </h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {certificates.map((certificates, index) => (
+          {experiences.map((experience, index) => (
             <ExperienceCard
-              key={`certificates-${index}`}
-              experience={certificates}
+              key={`experience-${index}`}
+              experience={experience}
             />
           ))}
         </VerticalTimeline>
@@ -95,4 +95,4 @@ const Certificate = () => {
   );
 };
 
-export default SectionWrapper(Certificate, "certificate");
+export default SectionWrapper(Experience, "experience");

@@ -7,12 +7,14 @@ import Certificate from './Certitifacte';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Experience from './Experience';
 
 export {
   Hero,
   Navbar,
   About,
   Tech,
+  Experience,
   Certificate,
   Works,
   Feedbacks,

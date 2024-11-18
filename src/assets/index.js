@@ -39,6 +39,7 @@ import pizza from "./pizza.png";
 import externallinkicon from "./externallinkicon.png";
 
 import udemy from "./company/udemy.png";
+import anarix from "./company/anarix.png";
 import aws from "./company/aws.png";
 
 import smartinternz from "./company/smartinternz.jpeg";
@@ -82,6 +83,7 @@ export {
   aws,
   entryexit,
   pizza,
+  anarix
   
   
 };

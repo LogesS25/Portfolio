@@ -14,9 +14,7 @@ import {
   mongodb,
   git,
   meta,
-  starbucks,
-  tesla,
-  shopify,
+
 
 
 
@@ -24,16 +22,12 @@ import {
   reactnative,
   chatpdf,
   medico,
-  externallinkicon,
   udemy,
   smartinternz,
   aws,
   entryexit,
   pizza,
-
-
-
-
+  anarix
 } from "../assets";
 
 
@@ -123,6 +117,23 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "SDE Intern At Anarix",
+    company_name: "Anarix",
+    icon: anarix,
+    iconBg: "#383E56",
+    date: "Aug 2024 - June 2025 [Present]",
+    points: [
+      "Currently working at Anarix, a product-based startup.  Working in a fast-paced startup has provided a broad learning platform, allowing me to develop expertise across the full software lifecycle, from design to implementation. I’m passionate about crafting scalable, efficient solutions and am skilled in collaborative problem-solving to deliver high-quality products. ",
+      "With a strong foundation in programming languages like Java and expertise in full-stack development technologies such as ReactJS, React Native, Node.js, TypeScript, MongoDB, and SQL, I am well-equipped to tackle a variety of software development challenges.",
+
+    ],
+    link: "https://anarix.ai/",
+
+  }
+]
+
+const certificates = [
   {
     title: "DATA STRUCTURES AND ALGORITHMS:DEEP DIVE USING JAVA",
     company_name: "Udemy",
@@ -350,4 +361,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies,experiences ,certificates, testimonials, projects };
